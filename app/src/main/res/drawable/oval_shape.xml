@@ -1,0 +1,9 @@
+<!-- res/drawable/rounded_transparent_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#E8FFFFFF" />
+    <corners android:radius="20dp" />
+    <stroke
+        android:width="2dp"
+        android:color="#70000000" />
+    <!-- The stroke defines the border with a dark color (adjust alpha as needed) -->
+</shape>

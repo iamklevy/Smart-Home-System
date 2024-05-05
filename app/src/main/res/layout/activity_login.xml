@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smart_home1"
+
+    tools:context="LoginActivity"
+
+    >
+
+
+    <!-- Password EditText -->
+
+    <!-- Remember Me Checkbox -->
+
+    <!-- Login Button -->
+
+    <!-- Link to Register -->
+
+    <TextView
+
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="529dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Login"
+
+        android:textAlignment="center"
+        android:textColor="#97000000"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/et_User_name"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="397dp"
+
+        android:background="@drawable/oval_shape"
+        android:drawableLeft="@drawable/person"
+
+        android:hint="E_mail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="332dp"
+
+        android:background="@drawable/oval_shape"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="152dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="273dp"
+        android:shadowColor="#333030"
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        android:textColor="#090909" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="290dp"
+        android:text="Remember Me" />
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="200dp"
+        android:background="#70000000"
+        android:text="Don't have an account?"
+        app:backgroundTint="@color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register_here"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="164dp"
+        android:background="#70652727"
+        android:text="register here!"
+        android:textSize="10dp"
+        app:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="226dp"
+        android:text="Login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="#686868" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/or_sign_in_with"
+            android:textColor="#4E4E4E" />
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="#686868" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/googleBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/google_button_background"
+            android:drawableStart="@drawable/googleg_standard_color_18"
+            android:padding="12dp"
+            android:text="@string/sign_in_with_google"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

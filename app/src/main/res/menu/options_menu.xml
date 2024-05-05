@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="profile"
+        android:id="@+id/menuprofile" />
+
+    <item
+        android:title="settings"
+        android:id="@+id/menusettings" />
+
+    <item
+        android:title="LogCat"
+        android:id="@+id/menulogcat" />
+
+    <item
+        android:title="search"
+        android:id="@+id/menusearch" />
+
+    <item
+        android:title="Log out"
+        android:id="@+id/menulogout" />
+
+</menu>
