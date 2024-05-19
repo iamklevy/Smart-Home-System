@@ -65,8 +65,16 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/tmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
 
     </LinearLayout>
 
-
-</LinearLayout>
+    </LinearLayout>
