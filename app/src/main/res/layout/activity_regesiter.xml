@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/smart_home1"
+
+    >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:textColor="#97000000"
+
+
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/et_User_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+        android:hint="username "
+        android:inputType="text"
+        android:drawableLeft="@drawable/person"
+
+
+        />
+    />
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/mail"
+
+        />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+
+        android:hint="password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+
+        />
+    <EditText
+        android:id="@+id/et_RePassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+
+
+        android:drawableLeft="@drawable/lock"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/et_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/phone"
+
+        />
+
+ <!--   <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+        android:hint="select date"
+        android:textColor="@color/black"
+        android:textColorHint="#35342F"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/date"
+        />-->
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/oval_shape"
+        android:hint="Select Date of Birth"
+        android:textColor="@color/black"
+        android:textColorHint="#35342F"
+        android:textSize="20sp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/date" />
+
+
+    <!-- First layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/oval_shape"
+            android:drawableLeft="@drawable/location"
+            android:text="Country"
+            android:textSize="20sp"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/oval_shape"
+            app:backgroundTint="#83000000"
+
+            />
+    </LinearLayout>
+
+    <!-- Second layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/oval_shape"
+            android:drawableLeft="@drawable/location"
+            android:text="City"
+            android:textSize="20sp"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/oval_shape"
+            app:backgroundTint="#83000000" />
+    </LinearLayout>
+    <!--  <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>-->
+    <!--
+          <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="296dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp" />&ndash;&gt;-->
+
+    <CheckBox
+        android:id="@+id/checkBoxAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Agree with terms and conditions" />
+
+    <Button
+        android:id="@+id/Btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Register"
+        android:textColor="@color/black"
+        app:backgroundTint="#83000000"
+        android:background="@drawable/oval_shape"
+
+        />
+
+    <Button
+        android:id="@+id/Btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/oval_shape"
+        app:backgroundTint="#83000000"
+        android:text="Login"
+        android:textColor="@color/black"
+
+
+/>
+
+
+</LinearLayout>
