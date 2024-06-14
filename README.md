@@ -84,8 +84,8 @@ Develop a solution for remote smart control to manage embedded electronic circui
    - **Registration Activity**: Collect user details (name, username, password, profile picture, email, birthdate) and store on Firebase, cache in SQLite.
    - **Login Activity**: 
      - Login using normal method or Firebase authentication.
-     - Implement "Remember Me" using a checkbox.
-     - Implement "Forgot Password" feature.
+     - Implementation of "Remember Me" using a checkbox.
+     - Implementation "Forgot Password" feature.
    - **Main Activity (Home Activity)**: Display a list of actions.
      - **ListView/RecyclerView**: Contains items for each action (image/title), navigate to action activity on click.
      - **Search Facility**: Filter actions by title via search bar.
@@ -93,16 +93,16 @@ Develop a solution for remote smart control to manage embedded electronic circui
      - **Activity Log**: Navigate to Activity Log activity.
      - **Profile**: Navigate to Profile Activity.
      - **Logout**: Return to login form.
-   - **Activity Log**: Store actions with timestamps on Firebase, cache using SQLite.
-   - **Profile Activity**: Display user profile picture, username, and logout button.
-   - **Action Activities**: Implement individual activities for each action (e.g., Temperature_Activity).
+   - **Activity Log**: Storing actions with timestamps on Firebase, cache using SQLite.
+   - **Profile Activity**: Displaying user profile picture, username, and logout button.
+   - **Action Activities**: Implementation of individual activities for each action (e.g., Temperature_Activity).
 
-### Hardware Requirements
+### Hardware used
 - **Common Components**: Breadboard, jump wires, LEDs, ESP8266 NodeMCU (or ArduinoUno + ESP8266 Wi-Fi Module).
 - **Application Specific Components**:
   - Temperature Sensor (LM35)
   - Ultrasonic Sensor
-  - Motor
+  - fan motor
   - LCD
   - Keypad
 - **Power Management**: Disconnect circuits to conserve power when network is disconnected.
