@@ -30,14 +30,18 @@
 <details>
   <summary>3D Model</summary>
   <p>
-    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/e3558be2-acda-4fac-830f-6c0b83062d05"  width="500"/>
+    <video width="500" controls>
+      <source src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/e3558be2-acda-4fac-830f-6c0b83062d05" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/4927e027-7232-438d-aee1-ecad95237ea0"  width="500"/>
   </p>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/1a5978e2-9941-4cbd-ab57-d2040edd4809"  width="500"/>
-
+  </p>
 </details>
+
 
 
 
