@@ -1,5 +1,9 @@
 # Smart-Home-System
 
+## About
+
+This project aims to develop a remote smart control system for managing embedded electronic circuits using a mobile application. By leveraging seamless connectivity, remote control, and real-time monitoring, users can control various smart home features such as temperature, lighting, and security. The system integrates microcontrollers, wireless modules, and sensors, utilizing Firebase for cloud data storage and SQLite for local caching. Developed with Android Studio, the mobile application ensures robust interaction with the embedded system, providing a comprehensive solution for smart home management.
+
 <details>
   <summary>Android App</summary>
   <p>
