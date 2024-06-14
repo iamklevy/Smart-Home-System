@@ -22,7 +22,7 @@
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/347b574c-7b44-4f99-96d7-6b0c314924dc"  width="500"/>
   </p>
   <p>
-    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/8d31903e-ae3b-4de4-8f32-7afc0781835b"  width="500"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/48579004-a3dd-4fc0-b7d3-cd1535bc90ab"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/20e3a5c7-1ae9-428d-8c67-ff8a34f011c7"  width="500"/>
-  </p>
+
 </details>
