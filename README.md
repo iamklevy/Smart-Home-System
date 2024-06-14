@@ -15,4 +15,14 @@
   </p>
 </details>
 
-
+<details>
+  <summary>Maquette</summary>
+  <p>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/b79a3f3a-f2e6-49dd-8464-6641ca4a69e2"  width="400"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/347b574c-7b44-4f99-96d7-6b0c314924dc"  width="400"/>
+  </p>
+  <p>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/8d31903e-ae3b-4de4-8f32-7afc0781835b"  width="400"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/20e3a5c7-1ae9-428d-8c67-ff8a34f011c7"  width="400"/>
+  </p>
+</details>
