@@ -19,7 +19,6 @@
   <summary>Maquette</summary>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/b79a3f3a-f2e6-49dd-8464-6641ca4a69e2"  width="500"/>
-    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/347b574c-7b44-4f99-96d7-6b0c314924dc"  width="500"/>
   </p>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/48579004-a3dd-4fc0-b7d3-cd1535bc90ab"  width="500"/>
