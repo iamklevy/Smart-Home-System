@@ -32,6 +32,7 @@
     <video width="500" controls>
       <source src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/6d280481-9daf-4f78-aac5-dffe1f43f48f" type="video/mp4">
     </video>
+     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/4927e027-7232-438d-aee1-ecad95237ea0"  width="500"/>
   </p>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
