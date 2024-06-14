@@ -74,7 +74,7 @@ Develop a solution for remote smart control to manage embedded electronic circui
    - Display "We are Safe" or "We are at Risk!" message on the app.
    - Reset "alert" to false upon correct password entry.
 
-6. **Message Display (Bonus)**
+6. **Message Display**
    - Enter a message in the mobile app.
    - Store the message on Firebase.
    - Display the message on an LCD via the microcontroller.
