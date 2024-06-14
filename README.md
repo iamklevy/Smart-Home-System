@@ -1,5 +1,80 @@
 # Smart-Home-System
 
+## Pervasive Computing Project: Remote Smart Control
+
+### Project Overview
+Develop a solution for remote smart control to manage embedded electronic circuits using a mobile application. The main objectives include:
+- Seamless Connectivity
+- Remote Control
+- Real-time Monitoring
+
+### System Description
+- **Components**: Microcontroller, wireless integrated module, environmental sensors.
+- **Connectivity**: Over Wi-Fi, exchanging data between the microcontroller and mobile application.
+- **Data Storage**: Firebase (cloud) and SQLite (cache).
+
+### Embedded System: Smart Home System
+1. **Temperature Control**
+   - Measure room temperature via a temperature sensor.
+   - Upload temperature data to Firebase.
+   - View temperature in a mobile app activity.
+
+2. **Home Lock (Password)**
+   - Create and store a home password through the mobile app.
+   - Microcontroller checks the password via connected keypad for door lock control.
+
+3. **Light Control**
+   - Send a Boolean value from the mobile app to the microcontroller to control an LED.
+   - Store the value on Firebase.
+
+4. **Fan Control**
+   - Send a Boolean value from the mobile app to the microcontroller to control a fan motor.
+   - Store the value on Firebase.
+
+5. **Entry Attack Alert**
+   - Detect entry using an ultrasonic sensor.
+   - Set an "alert" variable on Firebase if an intrusion is detected.
+   - Microcontroller listens for the "alert" variable change and sends a notification to the Android app.
+   - Display "We are Safe" or "We are at Risk!" message on the app.
+   - Reset "alert" to false upon correct password entry.
+
+6. **Message Display (Bonus)**
+   - Enter a message in the mobile app.
+   - Store the message on Firebase.
+   - Display the message on an LCD via the microcontroller.
+
+### Software Requirements
+1. **Mobile Application (Android Studio IDE)**
+   - **Registration Activity**: Collect user details (name, username, password, profile picture, email, birthdate) and store on Firebase, cache in SQLite.
+   - **Login Activity**: 
+     - Login using normal method or Firebase authentication.
+     - Implement "Remember Me" using a checkbox.
+     - Implement "Forgot Password" feature.
+   - **Main Activity (Home Activity)**: Display a list of actions.
+     - **ListView/RecyclerView**: Contains items for each action (image/title), navigate to action activity on click.
+     - **Search Facility**: Filter actions by title via search bar.
+   - **Options Menu**:
+     - **Activity Log**: Navigate to Activity Log activity.
+     - **Profile**: Navigate to Profile Activity.
+     - **Logout**: Return to login form.
+   - **Activity Log**: Store actions with timestamps on Firebase, cache using SQLite.
+   - **Profile Activity**: Display user profile picture, username, and logout button.
+   - **Action Activities**: Implement individual activities for each action (e.g., Temperature_Activity).
+
+### Hardware Requirements
+- **Common Components**: Breadboard, jump wires, LEDs, ESP8266 NodeMCU (or ArduinoUno + ESP8266 Wi-Fi Module).
+- **Application Specific Components**:
+  - Temperature Sensor (LM35)
+  - Ultrasonic Sensor
+  - Motor
+  - LCD
+  - Keypad
+- **Power Management**: Disconnect circuits to conserve power when network is disconnected.
+
+### Integration
+- **Firebase and ESP32**: Firebase sends data to ESP32, which communicates via serial with Arduino for LCD display and password verification.
+- **Network Disconnection**: Display a toast message "Please Check your Network Connection!" on the mobile app and disconnect hardware components to save power.
+
 <details>
   <summary>Android App</summary>
   <p>
