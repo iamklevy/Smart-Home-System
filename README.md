@@ -26,3 +26,16 @@
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/20e3a5c7-1ae9-428d-8c67-ff8a34f011c7"  width="500"/>
 
 </details>
+
+<details>
+  <summary>3D Model</summary>
+  <p>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5a2cb464-aad4-4c4b-b0dc-b39a62beba62"  width="500"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/4927e027-7232-438d-aee1-ecad95237ea0"  width="500"/>
+  </p>
+  <p>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/1a5978e2-9941-4cbd-ab57-d2040edd4809"  width="500"/>
+
+</details>
+
