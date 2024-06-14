@@ -37,10 +37,6 @@ This project aims to develop a remote smart control system for managing embedded
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/20e3a5c7-1ae9-428d-8c67-ff8a34f011c7"  width="500"/>
     <video src="https://www.youtube.com/watch?v=LAhoLC1QU5o" />
   </p>
-      <video width="500" controls>
-    <source src="https://www.youtube.com/watch?v=LAhoLC1QU5o" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
 </details>
       
 ## Pervasive Computing Project: Remote Smart Control
