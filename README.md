@@ -19,6 +19,7 @@
   <summary>Maquette</summary>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/b79a3f3a-f2e6-49dd-8464-6641ca4a69e2"  width="500"/>
+    <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/865ebd61-d0e3-4f13-b5e6-48d7d82bb3c4" width= "500"/>
   </p>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/48579004-a3dd-4fc0-b7d3-cd1535bc90ab"  width="500"/>
@@ -28,21 +29,11 @@
 
 <details>
   <summary>3D Model</summary>
- 
-  <video width="500" controls>
-     <source src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/6d280481-9daf-4f78-aac5-dffe1f43f48f" type="video/mp4">
-  </video>
-  <p>
-     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/4927e027-7232-438d-aee1-ecad95237ea0"  width="500"/>
-  </p>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/1a5978e2-9941-4cbd-ab57-d2040edd4809"  width="500"/>
   </p>
-
 https://github.com/iamklevy/Smart-Home-System/assets/94145850/cd08469e-bd11-4a1f-84ab-41c220ad1fc4
-
-
 </details>
 
 
