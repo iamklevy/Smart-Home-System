@@ -108,7 +108,7 @@ Develop a solution for remote smart control to manage embedded electronic circui
 ### Hardware used
 - **Common Components**: Breadboard, jump wires, LEDs, ESP8266 NodeMCU (or ArduinoUno + ESP8266 Wi-Fi Module).
 - **Application Specific Components**:
-  - Temperature Sensor (LM35)
+  - Temperature Sensor (DH22)
   - Ultrasonic Sensor
   - fan motor
   - LCD
