@@ -3,7 +3,7 @@
 This project aims to develop a remote smart control system for managing embedded electronic circuits using a mobile application. By leveraging seamless connectivity, remote control, and real-time monitoring, users can control various smart home features such as temperature, lighting, and security. The system integrates microcontrollers, wireless modules, and sensors, utilizing Firebase for cloud data storage and SQLite for local caching. Developed with Android Studio, the mobile application ensures robust interaction with the embedded system, providing a comprehensive solution for smart home management.
 
   <img src = "https://github.com/user-attachments/assets/0da1f0e6-30cb-4b59-a000-539721b897e0" width="2100" height="500"/>
-  <img src = "https://github.com/user-attachments/assets/67149ade-c550-4458-866f-011296cffb4a" width="2200" height="500"/>
+  <img src = "https://github.com/user-attachments/assets/67149ade-c550-4458-866f-011296cffb4a" width="2100" height="500"/>
 
 <details>
   <summary>3D Model</summary>
