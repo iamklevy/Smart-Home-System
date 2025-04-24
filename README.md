@@ -16,7 +16,6 @@ This project aims to develop a remote smart control system for managing embedded
 </details>
 
 <details>
-  <summary>Maquette</summary>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/b79a3f3a-f2e6-49dd-8464-6641ca4a69e2"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/865ebd61-d0e3-4f13-b5e6-48d7d82bb3c4" width= "500"/>
