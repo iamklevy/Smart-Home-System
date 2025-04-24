@@ -6,7 +6,6 @@ This project aims to develop a remote smart control system for managing embedded
   <img src = "https://github.com/user-attachments/assets/67149ade-c550-4458-866f-011296cffb4a" width="2100" height="500"/>
 
 <details>
-  <summary>3D Model</summary>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/1a5978e2-9941-4cbd-ab57-d2040edd4809"  width="500"/>
