@@ -5,16 +5,13 @@ This project aims to develop a remote smart control system for managing embedded
   <img src = "https://github.com/user-attachments/assets/0da1f0e6-30cb-4b59-a000-539721b897e0" width="2100" height="500"/>
   <img src = "https://github.com/user-attachments/assets/67149ade-c550-4458-866f-011296cffb4a" width="2100" height="500"/>
 
-<details>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/5672c042-2992-4b07-9b61-9b5554ca63a9"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/1a5978e2-9941-4cbd-ab57-d2040edd4809"  width="500"/>
     <video src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/cd08469e-bd11-4a1f-84ab-41c220ad1fc4" />
       Your display does not support the video tag. open browser to see the video.
   </p>
-</details>
 
-<details>
   <p>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/b79a3f3a-f2e6-49dd-8464-6641ca4a69e2"  width="500"/>
     <img src="https://github.com/iamklevy/Smart-Home-System/assets/94145850/865ebd61-d0e3-4f13-b5e6-48d7d82bb3c4" width= "500"/>
@@ -28,7 +25,6 @@ This project aims to develop a remote smart control system for managing embedded
       <img src="https://img.youtube.com/vi/LAhoLC1QU5o/0.jpg" width="500" />
     </a>
   </p>
-</details>
       
 ## Pervasive Computing Project: Remote Smart Control
 
