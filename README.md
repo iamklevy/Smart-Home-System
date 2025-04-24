@@ -47,7 +47,7 @@ Develop a solution for remote smart control to manage embedded electronic circui
 
 2. **Home Lock (Password)**
    - Create and store a home password through the mobile app.
-   - Microcontroller checks the password via connected keypad for door lock control.
+   - The microcontroller checks the password via the connected keypad for door lock control.
 
 3. **Light Control**
    - Send a Boolean value from the mobile app to the microcontroller to control an LED.
@@ -60,7 +60,7 @@ Develop a solution for remote smart control to manage embedded electronic circui
 5. **Entry Attack Alert**
    - Detect entry using an ultrasonic sensor.
    - Set an "alert" variable on Firebase if an intrusion is detected.
-   - Microcontroller listens for the "alert" variable change and sends a notification to the Android app.
+   - The microcontroller listens for the "alert" variable change and sends a notification to the Android app.
    - Display "We are Safe" or "We are at Risk!" message on the app.
    - Reset "alert" to false upon correct password entry.
 
@@ -73,17 +73,17 @@ Develop a solution for remote smart control to manage embedded electronic circui
 1. **Mobile Application (Android Studio IDE)**
    - **Registration Activity**: Collect user details (name, username, password, profile picture, email, birthdate) and store on Firebase, cache in SQLite.
    - **Login Activity**: 
-     - Login using normal method or Firebase authentication.
+     - Login using the normal method or Firebase authentication.
      - Implementation of "Remember Me" using a checkbox.
-     - Implementation "Forgot Password" feature.
+     - Implementation of "Forgot Password" feature.
    - **Main Activity (Home Activity)**: Display a list of actions.
-     - **ListView/RecyclerView**: Contains items for each action (image/title), navigate to action activity on click.
-     - **Search Facility**: Filter actions by title via search bar.
+     - **ListView/RecyclerView**: Contains items for each action (image/title), and navigate to the action activity on click.
+     - **Search Facility**: Filter actions by title via the search bar.
    - **Options Menu**:
      - **Activity Log**: Navigate to Activity Log activity.
      - **Profile**: Navigate to Profile Activity.
      - **Logout**: Return to login form.
-   - **Activity Log**: Storing actions with timestamps on Firebase, cache using SQLite.
+   - **Activity Log**: Storing actions with timestamps on Firebase, and caching using SQLite.
    - **Profile Activity**: Displaying user profile picture, username, and logout button.
    - **Action Activities**: Implementation of individual activities for each action (e.g., Temperature_Activity).
 
@@ -95,7 +95,7 @@ Develop a solution for remote smart control to manage embedded electronic circui
   - fan motor
   - LCD
   - Keypad
-- **Power Management**: Disconnect circuits to conserve power when network is disconnected.
+- **Power Management**: Disconnect circuits to conserve power when the network is disconnected.
 
 ### Integration
 - **Firebase and ESP32**: Firebase sends data to ESP32, which communicates via serial with Arduino for LCD display and password verification.
